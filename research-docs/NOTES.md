@@ -5,9 +5,9 @@
 - [x] Which type of meters are used by TANESCO? (They buy from EDMI) => They use EDMI meters since they are believed to be long-lasting and tamper proof.
 - [x] Is that meter type consistent in the whole country? => Currently no, but there's a campaign (Oct, 2025) to shift all meters (WASION and INHEMETER) to EDMI meters all over the country.
 - [x] How do they work? (Measuring the units, communication to user and their servers) => Mostly use RF frequency communication _(433MHz)_ between each other to form a network up to the server (urban areas), use PLC or GSM for rural areas.
-- [x] Is that particular meter type secured against tampering? If no, which ways tampering techniques affects it? => Yes, they can be tampered with. No critical information yet on tampering them.
-- [ ] How can that vulnerable type (still commonly used) be acquired (bought) for demonstration?
-- [ ] Can the techniques be prevented? If yes, how?
+- [x] Is that particular meter type secured against all tampering? If no, which ways tampering techniques affects it? => Yes, they can be tampered with. No critical information yet on tampering them.
+- [ ] How can that EDMI type (still commonly used) be acquired (or bought) for demonstration
+- [ ] Are there any underlying solutions for those tampering problems? If yes, are they already implemented?
 
 ## TAMPERING TECHNIQUES
 
